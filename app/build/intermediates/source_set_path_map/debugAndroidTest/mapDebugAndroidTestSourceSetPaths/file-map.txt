@@ -1,0 +1,5 @@
+com.meditrust.findadoctor.test.app-core-1.6.1-0 C:\Users\HP\.gradle\caches\transforms-4\55a62bf728e7d724583d481bfc37408d\transformed\core-1.6.1\res
+com.meditrust.findadoctor.test.app-androidTest-1 D:\MobileApplication\Android\Private Ventures\MediTrust\app\build\generated\res\resValues\androidTest\debug
+com.meditrust.findadoctor.test.app-mergeDebugAndroidTestResources-2 D:\MobileApplication\Android\Private Ventures\MediTrust\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.meditrust.findadoctor.test.app-mergeDebugAndroidTestResources-3 D:\MobileApplication\Android\Private Ventures\MediTrust\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.meditrust.findadoctor.test.app-debugAndroidTest-4 D:\MobileApplication\Android\Private Ventures\MediTrust\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

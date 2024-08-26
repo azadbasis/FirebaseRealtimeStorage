@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/layout_dialog_resend_verification.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_resend_verification.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/layout_dialog_resetpassword.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_resetpassword.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/layout_activity_login.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/xml_data_extraction_rules.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/layout_activity_main.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.firebase.storages.app-pngs-37:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/layout_activity_settings.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/menu_settings_menu.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/menu/settings_menu.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/layout_activity_registration.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/xml_backup_rules.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/xml/backup_rules.xml"
+    }
+]

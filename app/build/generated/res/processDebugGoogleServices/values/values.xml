@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">506413208924</string>
+    <string name="google_api_key" translatable="false">AIzaSyAn7hUyj2I9AIRiYwRP4vCfu9wcxdlE5RM</string>
+    <string name="google_app_id" translatable="false">1:506413208924:android:4b5a05800799b572875d99</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAn7hUyj2I9AIRiYwRP4vCfu9wcxdlE5RM</string>
+    <string name="google_storage_bucket" translatable="false">projectblueprints-1d8f3.appspot.com</string>
+    <string name="project_id" translatable="false">projectblueprints-1d8f3</string>
+</resources>

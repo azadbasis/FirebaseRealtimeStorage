@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.firebase.storages.RegistrationActivity">
+<EditText
+    android:id="@+id/et_name"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:hint="Full name"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="20dp"
+    />
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        app:layout_constraintTop_toBottomOf="@id/et_name"
+        app:layout_constraintStart_toStartOf="@id/et_name"
+        app:layout_constraintEnd_toEndOf="@id/et_name"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        app:layout_constraintTop_toBottomOf="@id/et_phone"
+        app:layout_constraintStart_toStartOf="@id/et_phone"
+        app:layout_constraintEnd_toEndOf="@id/et_phone"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        app:layout_constraintTop_toBottomOf="@id/et_email"
+        app:layout_constraintStart_toStartOf="@id/et_email"
+        app:layout_constraintEnd_toEndOf="@id/et_email"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm password"
+        app:layout_constraintTop_toBottomOf="@id/et_password"
+        app:layout_constraintStart_toStartOf="@id/et_password"
+        app:layout_constraintEnd_toEndOf="@id/et_password"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_confirm_password"
+        app:layout_constraintStart_toStartOf="@id/et_confirm_password"
+        app:layout_constraintEnd_toEndOf="@id/et_confirm_password"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

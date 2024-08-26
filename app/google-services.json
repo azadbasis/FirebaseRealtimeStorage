@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "506413208924",
+    "project_id": "projectblueprints-1d8f3",
+    "storage_bucket": "projectblueprints-1d8f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506413208924:android:819ac4e895b037b4875d99",
+        "android_client_info": {
+          "package_name": "com.firebase.authentications"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn7hUyj2I9AIRiYwRP4vCfu9wcxdlE5RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506413208924:android:4b5a05800799b572875d99",
+        "android_client_info": {
+          "package_name": "com.firebase.storages"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn7hUyj2I9AIRiYwRP4vCfu9wcxdlE5RM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
