@@ -1,94 +1,162 @@
 [
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/layout_dialog_resend_verification.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/layout/dialog_resend_verification.xml"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_phone.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_phone.png"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/layout_dialog_resetpassword.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/layout/dialog_resetpassword.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_checkmark.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_checkmark.png"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/layout_activity_login.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/layout/activity_login.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\layout_dialog_resetpassword.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resetpassword.xml"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_password.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_password.png"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/xml_data_extraction_rules.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/layout_activity_main.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.firebase.storages.app-debug-42:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.firebase.storages.app-pngs-37:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "com.firebase.storages.app-debug-42:/layout_activity_settings.xml.flat",
         "source": "com.firebase.storages.app-main-44:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_culture.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_culture.png"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/menu_settings_menu.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/menu/settings_menu.xml"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_grey_border_top.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/grey_border_top.xml"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_chatroom.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_chatroom.png"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/layout_activity_registration.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/layout/activity_registration.xml"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_grey_border_bottom.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/grey_border_bottom.xml"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_registration.xml"
     },
     {
-        "merged": "com.firebase.storages.app-debug-42:/xml_backup_rules.xml.flat",
-        "source": "com.firebase.storages.app-main-44:/xml/backup_rules.xml"
+        "merged": "com.firebase.storages.app-debug-42:/drawable_blue_button.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/blue_button.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_grey_border.xml.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/grey_border.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_schedule.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_schedule.png"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_initiatives.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_initiatives.png"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\menu_settings_menu.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\menu\\settings_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_name.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_name.png"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_email.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_email.png"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_tabian_consulting_logo.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/tabian_consulting_logo.png"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_admin.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_admin.png"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\layout_dialog_resend_verification.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resend_verification.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-debug-42:/drawable_ic_android.png.flat",
+        "source": "com.firebase.storages.app-main-44:/drawable/ic_android.png"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-debug-42:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-pngs-37:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     }
 ]

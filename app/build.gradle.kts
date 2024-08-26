@@ -57,6 +57,11 @@ dependencies {
     implementation("com.google.firebase:firebase-auth")
     implementation("androidx.datastore:datastore-preferences:1.1.1")
 
+   // Add the dependency for the Realtime Database library
+    implementation("com.google.firebase:firebase-database")
+
+    // Add the dependency for the Cloud Storage library
+    implementation("com.google.firebase:firebase-storage")
 
 }
 

@@ -3,13 +3,18 @@ package com.firebase.storages
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.firebase.storages.databinding.ActivityRegistrationBinding
+import com.firebase.storages.model.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
-import com.firebase.storages.databinding.ActivityRegistrationBinding
+import com.google.firebase.database.FirebaseDatabase
 import kotlinx.coroutines.launch
+
 
 class RegistrationActivity : AppCompatActivity() {
 
@@ -43,6 +48,7 @@ class RegistrationActivity : AppCompatActivity() {
     }
 
     private fun createEmailRegistration(email: String, password: String) {
+        showDialog();
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
 
@@ -57,19 +63,44 @@ class RegistrationActivity : AppCompatActivity() {
                         Toast.LENGTH_SHORT,
                     ).show()
                     sendVerificationEmail()
-                    FirebaseAuth.getInstance().signOut()
-                    redirectToLogin()
+                    val muser = User()
+                    muser.name = binding.etName.text.toString()
+                    muser.profile_image = ""
+                    muser.security_level = "1"
+                    muser.phone = binding.etPhone.text.toString()
+                    muser.user_id = FirebaseAuth.getInstance().currentUser?.uid.toString()
+
+                    FirebaseAuth.getInstance().currentUser?.uid?.let {
+                        FirebaseDatabase.getInstance().getReference()
+                            .child(getString(R.string.dbnode_users))
+                            .child(it)
+                            .setValue(muser)
+                            .addOnCompleteListener { task ->
+                                FirebaseAuth.getInstance().signOut()
+                                // Redirect the user to the login screen
+                                redirectToLogin()
+                            }
+                            .addOnFailureListener { e ->
+                                Toast.makeText(this, "Something went wrong.", Toast.LENGTH_SHORT)
+                                    .show()
+                                FirebaseAuth.getInstance().signOut()
+                                // Redirect the user to the login screen
+                                redirectToLogin()
+                            }
+                    }
+
                     //   updateUI(user)
                 } else {
                     // If sign in fails, display a message to the user.
                     Log.w(TAG, "createUserWithEmail:failure", task.exception)
                     Toast.makeText(
                         baseContext,
-                        "Authentication failed.",
+                        "Unable to Register",
                         Toast.LENGTH_SHORT,
                     ).show()
                     // updateUI(null)
                 }
+                hideDialog()
             }
     }
 
@@ -80,10 +111,11 @@ class RegistrationActivity : AppCompatActivity() {
 
     private fun sendVerificationEmail() {
         val user: FirebaseUser? = FirebaseAuth.getInstance().currentUser
-        user?.sendEmailVerification()?.addOnCompleteListener(this){task->
-            if (task.isSuccessful){
-                Toast.makeText(this, "Verification email sent to ${user.email}", Toast.LENGTH_SHORT).show()
-            }else{
+        user?.sendEmailVerification()?.addOnCompleteListener(this) { task ->
+            if (task.isSuccessful) {
+                Toast.makeText(this, "Verification email sent to ${user.email}", Toast.LENGTH_SHORT)
+                    .show()
+            } else {
                 Toast.makeText(this, "Failed to send verification email", Toast.LENGTH_SHORT).show()
             }
 
@@ -101,4 +133,40 @@ class RegistrationActivity : AppCompatActivity() {
     private suspend fun savePhoneData(value: String) {
         datastoreUtil.saveData(DatastoreUtil.PHONE_KEY, value)
     }
+
+
+    /**
+     * Return true if @param 's1' matches @param 's2'
+     * @param s1
+     * @param s2
+     * @return
+     */
+    private fun doStringsMatch(s1: String, s2: String): Boolean {
+        return s1 == s2
+    }
+
+    /**
+     * Return true if the @param is null
+     * @param string
+     * @return
+     */
+    private fun isEmpty(string: String): Boolean {
+        return string == ""
+    }
+
+
+    private fun showDialog() {
+        binding.progressBar.setVisibility(View.VISIBLE)
+    }
+
+    private fun hideDialog() {
+        if ( binding.progressBar.getVisibility() === View.VISIBLE) {
+            binding.progressBar.setVisibility(View.INVISIBLE)
+        }
+    }
+
+    private fun hideSoftKeyboard() {
+        this.window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN)
+    }
+
 }

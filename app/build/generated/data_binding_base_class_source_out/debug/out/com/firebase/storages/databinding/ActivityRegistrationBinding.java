@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -41,10 +42,13 @@ public final class ActivityRegistrationBinding implements ViewBinding {
   @NonNull
   public final ConstraintLayout main;
 
+  @NonNull
+  public final ProgressBar progressBar;
+
   private ActivityRegistrationBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button btnRegister, @NonNull EditText etConfirmPassword, @NonNull EditText etEmail,
       @NonNull EditText etName, @NonNull EditText etPassword, @NonNull EditText etPhone,
-      @NonNull ConstraintLayout main) {
+      @NonNull ConstraintLayout main, @NonNull ProgressBar progressBar) {
     this.rootView = rootView;
     this.btnRegister = btnRegister;
     this.etConfirmPassword = etConfirmPassword;
@@ -53,6 +57,7 @@ public final class ActivityRegistrationBinding implements ViewBinding {
     this.etPassword = etPassword;
     this.etPhone = etPhone;
     this.main = main;
+    this.progressBar = progressBar;
   }
 
   @Override
@@ -120,8 +125,14 @@ public final class ActivityRegistrationBinding implements ViewBinding {
 
       ConstraintLayout main = (ConstraintLayout) rootView;
 
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
+        break missingId;
+      }
+
       return new ActivityRegistrationBinding((ConstraintLayout) rootView, btnRegister,
-          etConfirmPassword, etEmail, etName, etPassword, etPhone, main);
+          etConfirmPassword, etEmail, etName, etPassword, etPhone, main, progressBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

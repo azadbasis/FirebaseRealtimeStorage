@@ -4,23 +4,27 @@
         "source": "com.firebase.storages.app-main-44:/layout/activity_settings.xml"
     },
     {
-        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_resetpassword.xml",
-        "source": "com.firebase.storages.app-main-44:/layout/dialog_resetpassword.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\dialog_resend_verification.xml",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resend_verification.xml"
     },
     {
-        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_registration.xml",
-        "source": "com.firebase.storages.app-main-44:/layout/activity_registration.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_login.xml",
-        "source": "com.firebase.storages.app-main-44:/layout/activity_login.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_main.xml",
-        "source": "com.firebase.storages.app-main-44:/layout/activity_main.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_settings.xml"
     },
     {
-        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_resend_verification.xml",
-        "source": "com.firebase.storages.app-main-44:/layout/dialog_resend_verification.xml"
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\dialog_resetpassword.xml",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resetpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_registration.xml",
+        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_registration.xml"
     }
 ]

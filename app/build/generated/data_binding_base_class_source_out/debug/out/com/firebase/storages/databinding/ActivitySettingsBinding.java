@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -32,7 +33,16 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final EditText inputEmail;
 
   @NonNull
+  public final EditText inputName;
+
+  @NonNull
   public final EditText inputPassword;
+
+  @NonNull
+  public final EditText inputPhone;
+
+  @NonNull
+  public final ImageView profileImage;
 
   @NonNull
   public final ProgressBar progressBar;
@@ -41,19 +51,41 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final RelativeLayout relLayout1;
 
   @NonNull
+  public final RelativeLayout relLayout2;
+
+  @NonNull
+  public final RelativeLayout relLayout3;
+
+  @NonNull
+  public final RelativeLayout relLayout4;
+
+  @NonNull
+  public final RelativeLayout relLayout5;
+
+  @NonNull
   public final TextView textHeader;
 
   private ActivitySettingsBinding(@NonNull RelativeLayout rootView, @NonNull Button btnSave,
-      @NonNull TextView changePassword, @NonNull EditText inputEmail,
-      @NonNull EditText inputPassword, @NonNull ProgressBar progressBar,
-      @NonNull RelativeLayout relLayout1, @NonNull TextView textHeader) {
+      @NonNull TextView changePassword, @NonNull EditText inputEmail, @NonNull EditText inputName,
+      @NonNull EditText inputPassword, @NonNull EditText inputPhone,
+      @NonNull ImageView profileImage, @NonNull ProgressBar progressBar,
+      @NonNull RelativeLayout relLayout1, @NonNull RelativeLayout relLayout2,
+      @NonNull RelativeLayout relLayout3, @NonNull RelativeLayout relLayout4,
+      @NonNull RelativeLayout relLayout5, @NonNull TextView textHeader) {
     this.rootView = rootView;
     this.btnSave = btnSave;
     this.changePassword = changePassword;
     this.inputEmail = inputEmail;
+    this.inputName = inputName;
     this.inputPassword = inputPassword;
+    this.inputPhone = inputPhone;
+    this.profileImage = profileImage;
     this.progressBar = progressBar;
     this.relLayout1 = relLayout1;
+    this.relLayout2 = relLayout2;
+    this.relLayout3 = relLayout3;
+    this.relLayout4 = relLayout4;
+    this.relLayout5 = relLayout5;
     this.textHeader = textHeader;
   }
 
@@ -102,9 +134,27 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.input_name;
+      EditText inputName = ViewBindings.findChildViewById(rootView, id);
+      if (inputName == null) {
+        break missingId;
+      }
+
       id = R.id.input_password;
       EditText inputPassword = ViewBindings.findChildViewById(rootView, id);
       if (inputPassword == null) {
+        break missingId;
+      }
+
+      id = R.id.input_phone;
+      EditText inputPhone = ViewBindings.findChildViewById(rootView, id);
+      if (inputPhone == null) {
+        break missingId;
+      }
+
+      id = R.id.profile_image;
+      ImageView profileImage = ViewBindings.findChildViewById(rootView, id);
+      if (profileImage == null) {
         break missingId;
       }
 
@@ -120,6 +170,30 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.relLayout2;
+      RelativeLayout relLayout2 = ViewBindings.findChildViewById(rootView, id);
+      if (relLayout2 == null) {
+        break missingId;
+      }
+
+      id = R.id.relLayout3;
+      RelativeLayout relLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (relLayout3 == null) {
+        break missingId;
+      }
+
+      id = R.id.relLayout4;
+      RelativeLayout relLayout4 = ViewBindings.findChildViewById(rootView, id);
+      if (relLayout4 == null) {
+        break missingId;
+      }
+
+      id = R.id.relLayout5;
+      RelativeLayout relLayout5 = ViewBindings.findChildViewById(rootView, id);
+      if (relLayout5 == null) {
+        break missingId;
+      }
+
       id = R.id.textHeader;
       TextView textHeader = ViewBindings.findChildViewById(rootView, id);
       if (textHeader == null) {
@@ -127,7 +201,8 @@ public final class ActivitySettingsBinding implements ViewBinding {
       }
 
       return new ActivitySettingsBinding((RelativeLayout) rootView, btnSave, changePassword,
-          inputEmail, inputPassword, progressBar, relLayout1, textHeader);
+          inputEmail, inputName, inputPassword, inputPhone, profileImage, progressBar, relLayout1,
+          relLayout2, relLayout3, relLayout4, relLayout5, textHeader);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
