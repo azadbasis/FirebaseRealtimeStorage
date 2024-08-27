@@ -63,6 +63,8 @@ dependencies {
     // Add the dependency for the Cloud Storage library
     implementation("com.google.firebase:firebase-storage")
 
+    //Universal imageLoader
+    implementation ("com.nostra13.universalimageloader:universal-image-loader:1.9.5")
 }
 
 

@@ -9,13 +9,15 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.firebase.storages.databinding.ActivityMainBinding
+import com.firebase.storages.utility.UniversalImageLoader
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
-import com.firebase.storages.R
-import com.firebase.storages.databinding.ActivityMainBinding
+import com.nostra13.universalimageloader.core.ImageLoader
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -68,6 +70,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupObject() {
         auth = FirebaseAuth.getInstance()
         datastoreUtil = DatastoreUtil.getInstance(this) // Initialize DatastoreUtil
+        initImageLoader()
     }
 
     private fun setupAuthStateListener() {
@@ -108,6 +111,13 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * init universal image loader
+     */
+    private fun initImageLoader() {
+        val imageLoader = UniversalImageLoader(this@MainActivity)
+        ImageLoader.getInstance().init(imageLoader.getConfig())
+    }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
