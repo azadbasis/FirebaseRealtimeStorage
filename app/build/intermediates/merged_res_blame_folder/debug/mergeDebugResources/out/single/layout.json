@@ -8,6 +8,10 @@
         "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resend_verification.xml"
     },
     {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_changephoto.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_changephoto.xml"
+    },
+    {
         "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_login.xml",
         "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_login.xml"
     },

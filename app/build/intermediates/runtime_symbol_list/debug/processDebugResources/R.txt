@@ -3338,7 +3338,9 @@ int id design_menu_item_action_area_stub 0x7f0800a4
 int id design_menu_item_text 0x7f0800a5
 int id design_navigation_view 0x7f0800a6
 int id dialogCancel 0x7f0800a7
+int id dialogChoosePhoto 0x7f080221
 int id dialogConfirm 0x7f0800a8
+int id dialogOpenCamera 0x7f080222
 int id dialogTitle 0x7f0800a9
 int id dialog_button 0x7f0800aa
 int id dimensions 0x7f0800ab
@@ -3852,6 +3854,7 @@ int layout design_navigation_menu 0x7f0b002e
 int layout design_navigation_menu_item 0x7f0b002f
 int layout design_text_input_end_icon 0x7f0b0030
 int layout design_text_input_start_icon 0x7f0b0031
+int layout dialog_changephoto 0x7f0b0073
 int layout dialog_resend_verification 0x7f0b0032
 int layout dialog_resetpassword 0x7f0b0033
 int layout ime_base_split_test_activity 0x7f0b0034

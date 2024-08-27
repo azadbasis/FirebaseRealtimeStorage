@@ -44,7 +44,9 @@ id change_password
 id confirm_email
 id confirm_password
 id dialogCancel
+id dialogChoosePhoto
 id dialogConfirm
+id dialogOpenCamera
 id dialogTitle
 id email_password_reset
 id et_confirm_password
@@ -71,6 +73,7 @@ layout activity_login
 layout activity_main
 layout activity_registration
 layout activity_settings
+layout dialog_changephoto
 layout dialog_resend_verification
 layout dialog_resetpassword
 menu settings_menu
