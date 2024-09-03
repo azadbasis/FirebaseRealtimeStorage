@@ -4,31 +4,51 @@
         "source": "com.firebase.storages.app-main-44:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\dialog_resend_verification.xml",
-        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resend_verification.xml"
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_resetpassword.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_resetpassword.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_delete_chatroom.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_delete_chatroom.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_registration.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/layout_chatmessage_listitem.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/layout_chatmessage_listitem.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_new_chatroom.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_new_chatroom.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_chatroom.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_chatroom.xml"
+    },
+    {
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_chat.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_chat.xml"
     },
     {
         "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_changephoto.xml",
         "source": "com.firebase.storages.app-main-44:/layout/dialog_changephoto.xml"
     },
     {
-        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_login.xml"
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_main.xml"
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/layout_chatroom_listitem.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/layout_chatroom_listitem.xml"
     },
     {
-        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_settings.xml",
-        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_settings.xml"
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\dialog_resetpassword.xml",
-        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\dialog_resetpassword.xml"
-    },
-    {
-        "merged": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-mergeDebugResources-41:\\layout\\activity_registration.xml",
-        "source": "C:\\Users\\dcl\\.gradle\\daemon\\8.7\\com.firebase.storages.app-main-44:\\layout\\activity_registration.xml"
+        "merged": "com.firebase.storages.app-mergeDebugResources-41:/layout/dialog_resend_verification.xml",
+        "source": "com.firebase.storages.app-main-44:/layout/dialog_resend_verification.xml"
     }
 ]

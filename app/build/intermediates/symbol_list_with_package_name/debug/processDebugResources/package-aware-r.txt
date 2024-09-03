@@ -3094,6 +3094,7 @@ drawable ic_password
 drawable ic_phone
 drawable ic_schedule
 drawable ic_search_black_24
+drawable ic_trash
 drawable indeterminate_static
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3229,6 +3230,7 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+id action_chat
 id action_container
 id action_context_bar
 id action_divider
@@ -3286,6 +3288,7 @@ id btn_save
 id buttonPanel
 id cache_measures
 id callMeasure
+id cancel
 id cancel_button
 id carryVelocity
 id center
@@ -3299,6 +3302,7 @@ id chains
 id change_password
 id checkbox
 id checked
+id checkmark
 id chronometer
 id circle_center
 id clear_text
@@ -3309,6 +3313,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirm_delete
 id confirm_email
 id confirm_password
 id constraint
@@ -3321,6 +3326,8 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
+id create_chatroom
+id creator_name
 id currentState
 id custom
 id customPanel
@@ -3396,6 +3403,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id fob
 id forever
 id fragment_container_view_tag
 id frost
@@ -3418,6 +3426,7 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
+id icon_trash
 id ifRoom
 id ignore
 id ignoreRequest
@@ -3426,10 +3435,13 @@ id immediateStop
 id included
 id indeterminate
 id info
+id input_chatroom_name
 id input_email
+id input_message
 id input_name
 id input_password
 id input_phone
+id input_security_level
 id invisible
 id inward
 id italic
@@ -3446,6 +3458,7 @@ id line1
 id line3
 id linear
 id listMode
+id listView
 id list_item
 id m3_side_sheet
 id main
@@ -3508,6 +3521,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id name
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3526,6 +3540,7 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id number_chatmessages
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -3601,6 +3616,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id security_level
 id select_dialog_listview
 id selected
 id selection_type
@@ -3658,12 +3674,15 @@ id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
 id text
 id text2
+id textChatroomName
 id textEnd
 id textHeader
+id textSecurityLevel
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id text_chatroom_name
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3833,6 +3852,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat
+layout activity_chatroom
 layout activity_login
 layout activity_main
 layout activity_registration
@@ -3856,10 +3877,14 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dialog_changephoto
+layout dialog_delete_chatroom
+layout dialog_new_chatroom
 layout dialog_resend_verification
 layout dialog_resetpassword
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout layout_chatmessage_listitem
+layout layout_chatroom_listitem
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4008,6 +4033,7 @@ string current_password
 string dbnode_chatrooms
 string dbnode_users
 string dialog_change_photo
+string dialog_delete_chatroom
 string dialog_new_chatroom
 string email
 string email_registration

@@ -13,5 +13,8 @@
         android:title="Settings"
         app:showAsAction="never"
         />
-
+    <item
+        android:id="@+id/action_chat"
+        android:title="@string/chat"
+        />
 </menu>

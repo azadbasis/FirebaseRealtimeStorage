@@ -128,17 +128,17 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_logout -> {
-                // Handle settings action
                 signOut()
                 true
             }
 
             R.id.action_settings -> {
-                // Handle settings action
-                val intent = Intent(
-                    this@MainActivity,
-                    SettingsActivity::class.java
-                )
+                val intent = Intent(this@MainActivity, SettingsActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.action_chat -> {
+                val intent = Intent(this@MainActivity, ChatActivity::class.java)
                 startActivity(intent)
                 true
             }

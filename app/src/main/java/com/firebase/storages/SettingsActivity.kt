@@ -125,6 +125,31 @@ class SettingsActivity : AppCompatActivity(), ChangePhotoDialog.OnPhotoReceivedL
             }
         })*/
 
+
+        /*
+            ---------- QUERY Method 3 ----------
+         */
+
+  /*      val query3 = reference.child(getString(R.string.dbnode_users))
+            .orderByChild(getString(R.string.field_user_id))
+            .equalTo(FirebaseAuth.getInstance().currentUser?.uid)
+
+        query3.addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
+                for (singleSnapshot in dataSnapshot.children) {val user = singleSnapshot.getValue(User::class.java)
+                    Log.d(TAG, "onDataChange: (QUERY METHOD 2) found user: $user")
+                    binding.inputName.setText(user?.name)
+                    binding.inputPhone.setText(user?.phone)
+                    ImageLoader.getInstance().displayImage(user?.profile_image, binding.profileImage)
+                }
+            }
+
+            override fun onCancelled(databaseError: DatabaseError) {
+                // Handle error
+            }
+        })*/
+
+
         binding.inputEmail.setText(FirebaseAuth.getInstance().currentUser!!.email)
     }
 

@@ -39,6 +39,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.MediTrust" >
         <activity
+            android:name="com.firebase.storages.ChatroomActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.firebase.storages.ChatActivity"
+            android:exported="false" />
+        <activity
             android:name="com.firebase.storages.SettingsActivity"
             android:exported="false" />
         <activity
